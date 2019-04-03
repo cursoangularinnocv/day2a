@@ -1,0 +1,6 @@
+<form [ngStyle]="{background: colorFromTheBananaBasketModel}">
+  <input type="text" name="age" [(ngModel)]="age"> {{age}}
+  <button (click)="checkMyAge($event)">I want to see my age!</button>
+  <input type="text" name="color" [(ngModel)]="colorFromTheBananaBasketModel">
+  <input type="text" name="keys" (keyup)="recordAllTheKeyStrokes($event)">
+</form>

@@ -1,0 +1,12 @@
+<label for="">Red
+  <input type="range" min="0" max="255" step="1" [disabled]="disabled" [(ngModel)]="sliderValueR"> {{sliderValueR}}
+</label>
+<label for="">Green
+  <input type="range" min="0" max="255" step="1" [disabled]="disabled" [(ngModel)]="sliderValueG"> {{sliderValueG}}
+</label>
+<label for="">Blue
+  <input type="range" min="0" max="255" step="1" [disabled]="disabled" [(ngModel)]="sliderValueB"> {{sliderValueB}}
+</label>
+<p>Calculated color rgba({{sliderValueR}}, {{sliderValueG}}, {{sliderValueB}}, 1)</p>
+<button (click)="switchSliderOn()">Disable/Enable</button>
+
