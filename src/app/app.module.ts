@@ -8,6 +8,8 @@ import { TestEventsComponent } from './test-events/test-events.component';
 import { TestBracketsComponent } from './test-brackets/test-brackets.component';
 import { TestFormComponent } from './test-form/test-form.component';
 import { SliderComponent } from './slider/slider.component';
+import { PipesComponent } from './pipes/pipes.component';
+import { AlternatecasesPipe } from './alternatecases.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SliderComponent } from './slider/slider.component';
     TestEventsComponent,
     TestBracketsComponent,
     TestFormComponent,
-    SliderComponent
+    SliderComponent,
+    PipesComponent,
+    AlternatecasesPipe
   ],
   imports: [
     BrowserModule,
